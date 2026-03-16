@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,  sans-serif;
+    background-color: #00008b;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cards{
+    margin: 22px;
+    text-align: center;
+    padding:22px;
+}
+.card{
+    background: #fff;
+    margin-top: 10px;
+    padding: 22px;
+    border-radius: 15px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+}
+.card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0.5rem;
+}
+.card h2{
+    color: #00008b;
+    padding: 2px;
+}
+.card p{
+    padding: 2px;
+    color: gray;
+}
+.btn{
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 14px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 12px;
+}
+.btn:hover,
+.bnt:focus{
+    background-color: #333;
+}
